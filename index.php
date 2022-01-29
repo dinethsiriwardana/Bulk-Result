@@ -39,7 +39,7 @@
                 <div class="col uploder" id="">
 
                     <!-- <div class="container container-dark" id="container"> -->
-                    <h3 class="center pb-4">File Uplode</h3>
+                    <h3 class="center pb-4">File Uploder</h3>
 
                     <form action="fileuploader.php" method="post" enctype="multipart/form-data">
 
