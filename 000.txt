@@ -1,0 +1,110 @@
+  <div class="col uploder" id="">
+
+                    <!-- <div class="container container-dark" id="container"> -->
+                    <h3 class="center pb-4">File Uploder</h3>
+
+                    <form action="fileuploader.php" method="post" enctype="multipart/form-data">
+
+                        <div class="mb-4">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected hidden>Open this select menu</option>
+                                <option value="1">Grade 5</option>
+                                <option value="2">GCE O/L</option>
+                                <option value="3">GCE A/L </option>
+                                <option value="4">University</option>
+                            </select>
+                        </div>
+                        <div class="mb-4">
+                            <input class="form-control" type="file" name="csv" id="formFile">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Upload</button>
+
+                    </form>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+  <div class="wrapper d-flex align-items-stretch">
+
+
+        <div id="content" class="p-4 p-md-5 pt-5">
+
+
+            <?php
+            include "php/license.php";
+            ?>
+            <div class="row mt-5 ">
+                
+                
+                <div class="col uploder" id="">
+
+                    <!-- <div class="container container-dark" id="container"> -->
+                    <h3 class="center pb-4">File Uploder</h3>
+
+                    <form action="fileuploader.php" method="post">
+
+                        <div class="mb-4">
+                            <input class="form-control" type="file" name="csv" id="formFile">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Upload</button>
+
+                    </form>
+
+                </div>
+                <div class="col-1" id="">
+                </div>
+                <div class="col  p-4 uploder" id="">
+
+                    <!-- <div class="container container-dark" id="container"> -->
+                    <h3 class="center pb-4">Message By Admin</h3>
+
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-0">G.C.E. A/L Result Just Released</h5>
+                                <small>1 days ago</small>
+                            </div>
+                            <p class="mb-0">Upload CSV file to get result</p>
+                            <!-- <small>And some small print.</small> -->
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-0">GCE A/L - Activeted</h5>
+                                <small class="text-muted">2 days ago</small>
+                            </div>
+                            <p class="mb-0">You have 500 License</p>
+                        
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-0">Welcome</h5>
+                                <small class="text-muted">3 days ago</small>
+                            </div>
+                            <p class="mb-0">Welcome to Bulk Result Downloader (BrDr).</p>
+                           
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <?php
+
+    // echo $json_string1 = file_get_contents('http://harsha.sserver.online/');
+
+    ?>
