@@ -34,15 +34,24 @@
         <div class="row mt-5 ">
 
 
-            <div class="col-sm uploder" id="">
+            <div class="col-sm uploder p-5" id="">
 
 
                 <h3 class="center pb-4">File Uploder</h3>
 
-                <form action="fileuploader.php" method="post">
+                <form action="fileuploader.php" method="post" enctype="multipart/form-data">
 
                     <div class="mb-4">
-                        <input class="form-control" type="file" name="csv" id="formFile">
+                        <select class="form-select" aria-label="Default select example" name="selecttype">
+                            <option selected hidden>Open this select menu</option>
+                            <option value="1">Grade 5</option>
+                            <option value="2">GCE O/L</option>
+                            <option value="3">GCE A/L </option>
+                            <option value="4">University</option>
+                        </select>
+                    </div>
+                    <div class="mb-4">
+                        <input class="form-control" type="text" name="csv" id="indexno" placeholder="Index Number">
                     </div>
                     <button type="submit" class="btn btn-primary">Upload</button>
 
@@ -54,7 +63,7 @@
             <div class="col-sm  p-4 uploder" id="">
 
 
-                <h3 class="center pb-4">Message By Admin</h3>
+                <h3 class="center pb-4">Messages</h3>
 
                 <div class="list-group">
                     <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
